@@ -19,7 +19,7 @@ canvas {
  background-color: #f1f1f1;
  }
  
-
+</style>
 </head>
 <body style="background-color:LightSalmon;">
 <!-- Making the links at the top of the page. -->
