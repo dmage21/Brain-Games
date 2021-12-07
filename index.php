@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html> 
 
-<head style="background-color:Tomato;">
+<head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
  
- <left>
- <h1> <a href="index.php">Brain Games </a>  <img src="brainart.png" width="200" height="175"> </h1>
+
+</head>
+<body style="background-color:LightSalmon;">
+<!-- Making the links at the top of the page. -->
+<left>
+<h1> <a href="index.php">Brain Games </a>  <img src="brainart.png" width="200" height="175"> </h1>
 </left>
 <center>
 <h2> <a href="index.php">Home</a>            &nbsp; &nbsp; &nbsp; 
@@ -21,10 +25,6 @@ echo "<a href='logout.php'>Logout</a> ";
 }else {echo "<a href='login.html'>Login</a> &nbsp; &nbsp; &nbsp	";}
 ?>
 </center>
-</head>
-<body style="background-color:LightSalmon;">
-<!-- Making the links at the top of the page. -->
-
 <center> <br> <br> <br> <br> </center>
 <left> <h2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Game 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Game 2 </h2> </left>
 <left> <a href="gamescreen.php"> <img src="game1.png" width="200" height="200" style="margin: 0px 50px 0px 50px;"> </a><left> <a href="gamescreen2.php"> <img src="game2.png" width="200" height="200" style="margin: 0px 50px 0px 0px;"> </a> </left> 
