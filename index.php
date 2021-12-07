@@ -7,14 +7,14 @@
 </head>
 <body>
 <!-- Making the links at the top of the page. -->
-<center>
+<left>
+ <h1> <a href="index.php">Brain Games</a>  
+<right>
 <h4> <a href="phase3.php"> Home</a>            &nbsp; &nbsp; &nbsp; 
-<a href="signup.php"> Sign up </a>             &nbsp; &nbsp; &nbsp;
-<a href="categories.php"> Browse Categories </a>  &nbsp; &nbsp; &nbsp;
-<a href="search.php"> Search </a>              &nbsp; &nbsp; &nbsp; 
-<a href="shoppingcart.php"> Shopping Cart </a> &nbsp; &nbsp; &nbsp; 
-<a href="orders.php"> View Orders </a>         &nbsp; &nbsp; &nbsp;
-<a href="contact.php"> Contact Us </a>         &nbsp; &nbsp; &nbsp;
+<a href="signup.php"> Log In </a>             &nbsp; &nbsp; &nbsp;
+<a href="categories.php"> About Us </a>  &nbsp; &nbsp; &nbsp;
+<a href="search.php"> Donate Now </a>              &nbsp; &nbsp; &nbsp; 
+
 <?php
 session_start();
 if (isset($_SESSION["loggedin"])) {
