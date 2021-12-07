@@ -26,37 +26,34 @@ echo "<a href='logout.php'>Logout</a> ";
 ?>
 </center>
 <center> <br> <br> <br> <br> </center>
-<?php
-//variables for connecting and getting email key for login
-$email = $_POST['email'];
-$password = $_POST['password'];
-$DB_HOST = "localhost";
-$DB_USER = "kdodr959";
-$DB_PASS = "gSpKMefyx735";
-$DB_NAME = "bookstore_kdodr959";
-// connecting to server
-$conn = new mysqli ($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
-if ($conn->connect_error){
-	die("Connection failed:" .$conn->connect_error);
-}
-// query to test email to see if its in the table
-$query = "SELECT Email, Passwd, FirstName, LastName, CustomerID FROM Customers where Email = '$email' ";
-$res = $conn->query($query);
-while($row = $res->fetch_assoc()){ 
-	if($email == $row['Email'] && $password == $row['Passwd']) {
-		echo "<center> <h2> Logged in Successfully </h2> </center>" ;
+<center>
+<h1> Sign in</h1>
+<br>
+<br>
+<div class="container">
+<h3>
+<form name="Signin Form" action="logininfo.php" method="post">
+Username: <input type="text" name ="user" id="1" size="25"
+maxlength="25" value=""> <br> <br>
 
-		echo '<center> <h2> Hello, '. $_SESSION["username"]; 
-	
-	} else {
-		echo "<center> <h2>Error Logging In</center>" ;
-	}
-}
-// close connection to database
-$conn ->close();	
-?>
-</body>
-<center> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br> <br> <br>
-<h3> This is a school project. </h3> </center> 
+Email Address: <input type="text" name ="email" id="2" size="25"
+maxlength="50" value=""> <br> <br>
 
-</html>
+Password: <input type="password" name ="password" id="3" size="25"
+maxlength="" value=""> <br> <br>
+
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" name="reset" value="Cancel" />
+<script>
+function popUp() {
+	confirm("Are you sure?");
+}
+</script>
+
+
+</center>
+</h3>
+			</form>
+		</div>
+	</body>
+</html>				
