@@ -22,7 +22,8 @@ if (isset($_SESSION["loggedin"])) {
 echo "<a href='logout.php'>Logout</a> ";
 }else {echo "<a href='login.html'>Login</a> &nbsp; &nbsp; &nbsp	";}
 ?>
-<center> <br> <br>
+ <center> <br> <br> <br> <br> </center>
+ <left> <h2> Game 1</h2> </left>
  <left> <a href="gamescreen.php"> <img src="game1.png" width="200" height="200"> </a> </left>
 <center> <h3> <div> Welcome to Garfield's Online Bookstore! Garfield's Books was established in 1998,<br> and has since
 grown a large collection of books. This webiste allows you to<br>
