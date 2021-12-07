@@ -35,15 +35,15 @@ echo "<a href='logout.php'>Logout</a> ";
 Username: <input type="text" name ="user" id="1" size="25"
 maxlength="25" value=""> <br> <br>
 
-Email Address: <input type="text" name ="email" id="3" size="25"
+Email Address: <input type="text" name ="email" id="2" size="25"
 maxlength="50" value=""> <br> <br>
 
-Password: <input type="password" name ="password" id="4" size="25"
+Password: <input type="password" name ="password" id="3" size="25"
 maxlength="" value=""> <br> <br>
 
 
-			<input type="submit" name="submit" value="Submit" />
-	<input type="reset" name="reset" value="Cancel" />
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" name="reset" value="Cancel" />
 <script>
 function popUp() {
 	confirm("Are you sure?");
