@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> 
 
-<head>
+<head style="background-color:Tomato;">
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
  
