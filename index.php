@@ -36,7 +36,7 @@ of stimulating puzzles and games. This webiste allows you to<br>
 play games that educate you while being a fun experiennce for people of all ages. </div> </h3> </center>
 <br> <br>
 <center> <h3> This is a school project </h3> </center> 
-<right> <img src="ads.png" width="200" height="400"> </right>
+
 
 </body>
 </html>
