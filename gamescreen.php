@@ -39,8 +39,6 @@ echo "<a href='logout.php'>Logout</a> ";
 <center> <input id="clickMe" type="button" value="Play" onclick="startGame();" /> <center>
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
 
 
 <script>
@@ -63,6 +61,7 @@ var myGameArea = {
 		document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 100;
         this.interval = setInterval(updateGameArea, 20);
+	this.canvas.translate(1000,500);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
