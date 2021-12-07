@@ -6,11 +6,16 @@
 canvas {
  border:5px solid #d3d3d3;
  background-color: #f1f1f1;
- padding-left: 0;
- padding-right: 0;
- margin-left: auto;
- margin-right: auto;
- display: block;
+ padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
  }
  
 </style>
