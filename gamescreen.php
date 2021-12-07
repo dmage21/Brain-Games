@@ -46,7 +46,7 @@ canvas {
     background-color: #f1f1f1;
 }
 </style>
-
+<center>
 <script>
 
 var myGamePiece;
@@ -74,6 +74,8 @@ var myGameArea = {
 }
 
 </script>
+
+</center>
 <br>
 
 
