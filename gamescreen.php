@@ -6,13 +6,6 @@
 </head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
-<style>
-canvas {
- border:5px solid #d3d3d3;
- background-color: #f1f1f1;
- }
- 
-</style>
 </head>
 <body style="background-color:LightSalmon;">
 <!-- Making the links at the top of the page. -->
@@ -47,6 +40,13 @@ canvas {
 }
 </style>
 <center>
+<style>
+canvas {
+ border:5px solid #d3d3d3;
+ background-color: #f1f1f1;
+ }
+ 
+</style>
 <script>
 
 var myGamePiece;
