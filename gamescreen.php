@@ -30,12 +30,12 @@ echo "<a href='logout.php'>Logout</a> ";
 
 <script>
  function playGif(gif_img) {            
-  if (gif_img.src.endsWith(".gif"))
+  if (gif_img.src.endsWith("loading.gif"))
   {
-   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "png";
+   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "playButton.png";
   } else 
   {
-   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "gif";
+   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "loading.gif";
   }    
  }
 </script>
