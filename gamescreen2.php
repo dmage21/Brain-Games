@@ -81,9 +81,6 @@ var myGameArea = {
 <br>
 
 
-
-
-
 <br> <br>
 
 </body>
