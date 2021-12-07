@@ -85,7 +85,6 @@ var myGameArea = {
 
 
 <br> <br>
-<right> <img src="ads.png" width="200" height="400"> </right>
 
 </body>
 </html>
