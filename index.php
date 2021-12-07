@@ -8,7 +8,7 @@
 <body>
 <!-- Making the links at the top of the page. -->
 <left>
- <h1> <a href="index.php">Brain Games </a>  <img src="brain.png" width="200" height="175"> </h1>
+ <h1> <a href="index.php">Brain Games </a>  <img src="brainart.png" width="200" height="175"> </h1>
 </left>
 <center>
 <h4> <a href="phase3.php"> Home</a>            &nbsp; &nbsp; &nbsp; 
