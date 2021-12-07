@@ -26,7 +26,7 @@ echo "<a href='logout.php'>Logout</a> ";
 ?>
 </center>
 
-<img src="*/playButton" onclick="playGif(loading.gif)" />
+<img src="playButton.png" onclick="playGif(loading.gif)" />
 
 <script>
  function playGif(gif_img) {            
