@@ -32,10 +32,10 @@ echo "<a href='logout.php'>Logout</a> ";
  function playGif(gif_img) {            
   if (gif_img.src.endsWith("gif"))
   {
-   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "playButton.png";
+   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "png";
   } else 
   {
-   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "loading.gif";
+   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "gif";
   }    
  }
 </script>
