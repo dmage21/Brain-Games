@@ -29,9 +29,9 @@ echo "<a href='logout.php'>Logout</a> ";
 
 <br>
 
-<center> <h3> <div> Welcome to Garfield's Online Bookstore! Garfield's Books was established in 1998,<br> and has since
-grown a large collection of books. This webiste allows you to<br>
- browse a vast online bookstore as well as make purchases that will be delivered to you! </div> </h3> </center>
+<center> <h3> <div> Welcome to Brain Games! Brain Games was established in 2021,<br> and is a collection
+of stimulating puzzles and games. This webiste allows you to<br>
+play games that educate you while being a fun experiennce for people of all ages. </div> </h3> </center>
 <br> <br>
 <center> <h3> This is a school project </h3> </center> 
 
