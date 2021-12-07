@@ -26,12 +26,24 @@ echo "<a href='logout.php'>Logout</a> ";
 ?>
 </center>
 
+<img src="*/playButton" onclick="playGif(loading.gif)" />
 
-<br>
-<input type="submit" name="Play" value="Submit" />
+<script>
+ function playGif(gif_img) {            
+  if (gif_img.src.endsWith(".gif"))
+  {
+   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "png";
+  } else 
+  {
+   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "gif";
+  }    
+ }
+</script>
+
+
+
 
 <br> <br>
-<center> <h3> This is a school project </h3> </center> 
 <right> <img src="ads.png" width="200" height="400"> </right>
 
 </body>
