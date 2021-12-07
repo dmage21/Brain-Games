@@ -24,8 +24,8 @@ echo "<a href='logout.php'>Logout</a> ";
 ?>
 </center>
 <center> <br> <br> <br> <br> </center>
-<left> <h2> Game 1                      Game 2 </h2> </left>
-<left> <a href="gamescreen.php"> <img src="game1.png" width="200" height="200" style="margin: 50px 50px 50px 50px;"> </a><left> <a href="gamescreen2.php"> <img src="game2.png" width="200" height="200" style="margin: 50px 50px 50px 50px;"> </a> </left> 
+<left> &nbsp; <h2> Game 1</h2> &nbsp; &nbsp; &nbsp; <h2> Game 2 </h2> </left>
+<left> <a href="gamescreen.php"> <img src="game1.png" width="200" height="200" style="margin: 50px 50px 0px 50px;"> </a><left> <a href="gamescreen2.php"> <img src="game2.png" width="200" height="200" style="margin: 50px 50px 0px 50px;"> </a> </left> 
 
 <br>
 
