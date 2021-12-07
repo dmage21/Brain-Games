@@ -15,8 +15,8 @@
 <center>
 <h2> <a href="index.php">Home</a>            &nbsp; &nbsp; &nbsp; 
 <a href="signup.php">Sign Up</a>             &nbsp; &nbsp; &nbsp;
-<a href="categories.php">About Us</a>  &nbsp; &nbsp; &nbsp;
-<a href="search.php">Donate Now</a>              &nbsp; &nbsp; &nbsp; 
+<a href="aboutus.php">About Us</a>  &nbsp; &nbsp; &nbsp;
+<a href="donate.php">Donate Now</a>              &nbsp; &nbsp; &nbsp; 
 
 <?php
 session_start();
