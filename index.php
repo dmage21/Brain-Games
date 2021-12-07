@@ -28,7 +28,7 @@ echo "<a href='logout.php'>Logout</a> ";
 <center> <br> <br> <br> <br> </center>
 <left> <h2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Game 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Game 2 </h2> </left>
 <left> <a href="gamescreen.php"> <img src="game1.png" width="200" height="200" style="margin: 0px 50px 0px 50px;"> </a><left> <a href="gamescreen2.php"> <img src="game2.png" width="200" height="200" style="margin: 0px 50px 0px 0px;"> </a> </left> 
-<right> <img src="ads.png" width="200" height="400"> </right>
+
 <br>
 
 <center> <h3> <div> Welcome to Brain Games! Brain Games was established in 2021,<br> and is a collection
@@ -36,6 +36,7 @@ of stimulating puzzles and games. This webiste allows you to<br>
 play games that educate you while being a fun experiennce for people of all ages. </div> </h3> </center>
 <br> <br>
 <center> <h3> This is a school project </h3> </center> 
+<right> <img src="ads.png" width="200" height="400"> </right>
 
 </body>
 </html>
