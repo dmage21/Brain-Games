@@ -55,6 +55,7 @@ function popUp() {
 }
 </script>
 
+<h2> (This is a school project, do not actually enter any credit card information into this website.) </h2>
 
 </center>
 </h3>
