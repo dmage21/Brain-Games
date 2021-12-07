@@ -8,9 +8,9 @@
 <body>
 <!-- Making the links at the top of the page. -->
 <left>
- <h1> <a href="index.php">Brain Games</a>  
-  </left>
-<right>
+<h1> <a href="index.php">Brain Games</a>  
+</left>
+<center>
 <h4> <a href="phase3.php"> Home</a>            &nbsp; &nbsp; &nbsp; 
 <a href="signup.php"> Sign Up </a>             &nbsp; &nbsp; &nbsp;
 <a href="categories.php"> About Us </a>  &nbsp; &nbsp; &nbsp;
@@ -22,7 +22,7 @@ if (isset($_SESSION["loggedin"])) {
 echo "<a href='logout.php'> Logout </a> ";
 }else {echo "<a href='login.html'> Login </a> &nbsp; &nbsp; &nbsp	";}
 ?>
-</right> <br> <br>
+<center> <br> <br>
 <center> <img src="http://unixweb.kutztown.edu/~kdodr959/Project/Phase1/images/garfieldbook.jpg" width = "250" height="300"> </center>
 <center> <h2> <div> Welcome to Garfield's Online Bookstore! Garfield's Books was established in 1998,<br> and has since
 grown a large collection of books. This webiste allows you to<br>
