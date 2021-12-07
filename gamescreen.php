@@ -3,13 +3,6 @@
 
 <head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<style>
-canvas {
-    border:1px solid #d3d3d3;
-    background-color: #f1f1f1;
-}
-</style>
 </head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
@@ -44,6 +37,15 @@ echo "<a href='logout.php'>Logout</a> ";
 
 
 <center> <input id="clickMe" type="button" value="Play" onclick="startGame();" /> <center>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
 
 <script>
 
