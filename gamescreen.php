@@ -64,7 +64,7 @@ var myGameArea = {
         this.canvas.width = 480;
         this.canvas.height = 270;
 	main.style.right "100px";
-	main.style.down "100px"
+	main.style.down "100px";
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 100;
