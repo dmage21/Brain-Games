@@ -41,9 +41,6 @@ echo "<a href='logout.php'>Logout</a> ";
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<canvas	
-	id="canvas"
-	style="position:absolute;left:50px;top:50px;">
 
 
 <script>
