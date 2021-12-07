@@ -2,6 +2,13 @@
 <html> 
 
 <head>
+<style>
+canvas {
+ border:5px solid #d3d3d3;
+ background-color: #f1f1f1;
+ }
+ 
+</style>
 
 </head>
 <!-- Referencing to the style sheet --> 
@@ -39,14 +46,8 @@ canvas {
     background-color: #f1f1f1;
 }
 </style>
-<center>
-<style>
-canvas {
- border:5px solid #d3d3d3;
- background-color: #f1f1f1;
- }
- 
-</style>
+
+
 <script>
 
 var myGamePiece;
@@ -75,7 +76,6 @@ var myGameArea = {
 
 </script>
 
-</center>
 <br>
 
 
