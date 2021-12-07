@@ -40,12 +40,10 @@ echo "<a href='logout.php'>Logout</a> ";
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<style>
-canvas {
-    border:1px solid #d3d3d3;
-    background-color: #f1f1f1;
-}
-</style>
+
+<canvas	
+	id="canvas"
+	style="position:absolute;left:50px;top:50px;">
 
 
 <script>
