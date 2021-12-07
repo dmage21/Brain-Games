@@ -4,6 +4,11 @@
 <head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
+<style>
+canvas {
+ border:5px solid #d3d3d3;
+ background-color: #f1f1f1;
+ }
  
 
 </head>
@@ -26,18 +31,32 @@ echo "<a href='logout.php'>Logout</a> ";
 ?>
 </center>
 
-<center> <img src="playButton.png" onclick="playGif(this)" /> </center>
+<center>  <input id="clickMe" type="button" value="Play" onclick="startGame();" /> </center>
 
 <script>
- function playGif(gif_img) {            
-  if (gif_img.src("loading.gif"))
-  {
-   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "png";
-  } else 
-  {
-   gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "gif";
-  }    
- }
+var score;
+ 
+function startGame() {
+    myGamePiece = new component(30, 30, "red", 10, 120);
+    myGamePiece.gravity = 0.05;
+    myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+    myGameArea.start();
+}
+ 
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 500;
+        this.canvas.height = 300;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+        this.frameNo = 0;
+        this.interval = setInterval(updateGameArea, 20);
+        },
+    clear : function() {
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    }
+}
 </script>
 
 
