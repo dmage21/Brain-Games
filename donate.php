@@ -41,8 +41,7 @@ maxlength="50" value=""> <br> <br>
 Credit Card Number: <input type="text" name ="number" id="3" size="25"
 maxlength="" value=""> <br> <br>
 
-CVV: <input type="text" name ="cvv" id="4" size="25"
-maxlength="" value=""> <br> <br>
+
   
 Expiration Date: <input type="text" name ="date" id="5" size="25"
 maxlength="" value=""> <br> <br>
