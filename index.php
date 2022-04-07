@@ -12,7 +12,7 @@
   <a href="index.php">Brain Games </a> 
   <a class="active" href="index.php>Home</a>
   <a href="#contact">Contact</a>
-  <a href="signup.php">Sign up</a>
+  <a href="signup.php" style="float:right;" >>Sign up</a>
 	<?php
 	session_start();
 	if (isset($_SESSION["loggedin"])) {
@@ -20,7 +20,7 @@
 	}else {echo "<a href='login.php'>Login</a> &nbsp; &nbsp; &nbsp	";}
 	?>
   <a href="aboutus.php">About</a>
-  <right> <a href="donate.php">Donate</a> </right>
+  <a href="donate.php">Donate</a> 
 </div>
 <left>
 <img src="brainart.png" width="200" height="175"> </h1>
