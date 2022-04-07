@@ -11,6 +11,12 @@
 <h1> <a href="index.php">Brain Games </a>  <img src="brainart.png" width="200" height="175"> </h1>
 </left>
 <center>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
 <h2> <a href="index.php">Home</a>            &nbsp; &nbsp; &nbsp; 
 <a href="signup.php">Sign Up</a>             &nbsp; &nbsp; &nbsp;
 <a href="aboutus.php">About Us</a>  &nbsp; &nbsp; &nbsp;
