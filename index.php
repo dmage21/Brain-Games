@@ -12,15 +12,12 @@
 </left>
 <center>
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
+  <a class="active" href="index.php>Home</a>
+  <a href="donate.php">Donate</a>
   <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="singup.php">Sign up</a>
+  <a href="aboutus.php">About</a>
 </div>
-<h2> <a href="index.php">Home</a>            &nbsp; &nbsp; &nbsp; 
-<a href="signup.php">Sign Up</a>             &nbsp; &nbsp; &nbsp;
-<a href="aboutus.php">About Us</a>  &nbsp; &nbsp; &nbsp;
-<a href="donate.php">Donate Now</a>              &nbsp; &nbsp; &nbsp; 
 
 <?php
 session_start();
