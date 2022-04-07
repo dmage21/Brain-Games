@@ -4,9 +4,8 @@
 <head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
- 
-
 </head>
+
 <!-- Making the links at the top of the page. -->
 <left>
 <h1> <a href="index.php">Brain Games </a>  <img src="brainart.png" width="200" height="175"> </h1>

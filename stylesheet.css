@@ -1,266 +1,141 @@
-@import "compass/css3";
+<header class="header">
+    <div class="container">
+      <h1 class="site-title">Super Cool Website!</h1>
+    <span class="site-tagline">Because flexbox is super cool!</span>
+  </div>
+</header>
+<nav class="main-nav">
+  <div class="container">
+    <ul>
+      <li class="mobile-button"><a href="#">Menu</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Work</a></li>
+    <li><a href="#">Methods</a></li>
+    <li><a href="#">Results</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  </div>
+</nav>
 
-//Just a ltitle layout demo using flexbox. Color pallete found on Kuler - https://color.adobe.com/Theme-33-color-theme-5523423/
+<section class="content">
+  <div class="full-bleed cool-photo"></div>
 
-//Dummy text from Whedonipsum - www.commercekitchen.com/whedon-ipsum/
+  <article class="post">
+    <div class="container">
+        <h2>This is the super cool section title</h2>
+      <div class="columns">
+        <div class="item">
+          <h4 class="item-title">This is the post title</h4>
+          <img src="http://lorempixel.com/600/150/nature" alt="Sample Image" class="item-image" />
+          <p>Frankly, it's ludicrous to have these interlocking bodies and not...interlock. My Uncle Rory was the stodgiest taxidermist you've ever met by day. But I haven't spent any money! I was all... dead and frugal. The only way some people can find a purpose in life is by becoming obsessed with demons. Should I start this program over? It's a real burn, being right so often. Can't call to mom, can't say a word. Nobody could do that much decoupage without calling on the powers of darkness. I'll never leave. Not even if you kill me. If I could make you purtier, I would.</p> </div>
 
-//Color definitions
-$lightblue: #D7F7FE;
-$darkblue: #1A577F;
-$medblue: #1F729C;
-$salmon: #FF6067;
-$hellayellow: #F7EE1A;
+        <div class="item">
+          <h4 class="item-title">This is the post title</h4>
+          <p>Everybody started singing and dancing. I've got four brothers, none of them Democrats. They need to take seven and they might take yours. Any self-respecting demon should be living in a pit of filth or a nice crypt. Who's calling me? Everybody I know lives here. Can't even shout, can't even cry. And I'm a huge fan of the way you lose control and turn into an enormous green rage monster. I wanna hurt you, but I can't resist the sinister attraction of your cold and muscular body! In their resting state, our actives are as innocent and vulnerable as children.</p>
+         <img src="http://lorempixel.com/600/200/cats" alt="Sample Image" class="item-image" /></div>
+      </div>
+    </div>   
+  </article>  
 
-//Typography
-$base-font-size: 16px;
-$base-font-family: 'Nunito', sans-serif;
-$heading-font-family: 'Righteous', sans-serif;
-
-//Convert px to em
-@function em($px, $base: $base-font-size) {
-  @return ($px / $base) * 1em;
-}
-
-body {
-  background: $lightblue;
-  font-family: $base-font-family;
-  color: #222;
-}
-
-* {
-  transition: all .65s ease;
-  box-sizing: border-box;
+  <div class="full-bleed cool-photo2"></div>
   
-}
+  <article class="post"> 
+    <div class="container">
+    
+    <h3>This is another section sub-title</h3>
+    
+    <div class="columns thirds">
+      <div class="item"> <h4 class="item-title">This is the post title</h4>
+          <img src="http://lorempixel.com/400/100/nature" alt="Sample Image" class="item-image" />
+        <p>From beneath you, it devours. Y'all see the man hanging out of the spaceship with the really big gun? No, Angel, it's not you. If I was blind, I would see you. Yes, I'd forgotten you're moonlighting as a criminal mastermind now.</p>  
+      <p>The human body can be drained of blood in 8.6 seconds given adequate vacuuming systems. Actually, I was fired from a fry-cook opportunity. I'm a comfortador also. Oh my god, I find lentils completely incomprehensible. The human mind is like Van Halen; if you just pull out one piece and keep replacing it, it just degenerates.</p>
+        <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+        
+     </div>
+      
+      <div class="item">
+          <h4 class="item-title">This is the post title</h4>
+        <p>I saw their production of 'Giselle' in 1890. I wept like a baby, and I was evil! And zombies don't eat brains anyway, unless instructed to by their zombie master. It's about power and it's about women and you just hate those two words in the same sentence, don't you? She is the slayer. I recognize the council has made a decision, but given that it's a stupid-ass decision, I've elected to ignore it.</p>
+         <p><img src="http://lorempixel.com/400/100/cats" alt="Sample Image" class="item-image" />
+        </p>
+      <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div></div>
 
-//Centering Content 
-.container {
-  max-width: 75em;
-  margin: 0 auto;
-}
+      <div class="item">
+        
+          <h4 class="item-title">This is the post title</h4>
+         <img src="http://lorempixel.com/400/100/fashion" alt="Sample Image" class="item-image" />
+        <p>Everybody started singing and dancing. I saw their production of 'Giselle' in 1890. I wept like a baby, and I was evil! So, are we gonna sing army songs or something? I am obsolete. This must be what old people feel like, and Blockbuster. In their resting state, our actives are as innocent and vulnerable as children. I'm a rogue demon hunter now. Hey I could whip up a love slave any day I wanted. Oh my god, I find lentils completely incomprehensible. Well we could grind our enemies into talcum powder with a sledgehammer but, gosh, we did that last night.</p>
+      <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div></div>
 
-//Setting up the header so the "logo" and tagline site on each side of the header using flexbox. At 700px, they will stack.
-.header {
-  background: $salmon;
-  color: white;
-  padding: em(10px);
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .site-title, .site-tagline {
-    font-weight: 400;
-  }
-  @media (max-width: 700px) {
-    .site-title, .site-tagline {
-      width: 100%;
-      text-align: center;
-    }
-    .site-title {
-      margin: 0;
-    }
-  }
-}
+      <div class="item">
+        
+          <h4 class="item-title">This is the post title</h4>
+        <p>It's funny how the Earth never opens up and swallows you when you want it to. Why can't you just masturbate like the rest of us? It's a real burn, being right so often. They need to take seven and they might take yours. We're old friends from Navy. Friends from Old Navy. I worked retail, he'd come in, buy slacks My entire existence was constructed by a sociopath in a sweater vest; what do you suggest I do?</p>
+      <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
 
-.site-title, h1, h2, h3 {
-  font-family: $heading-font-family;
-  font-size: em(42px);
-  color: darken($lightblue, 75%);
-}
-h3 {
-  font-size: em(32px);
-  color: desaturate($salmon, 10%);
-}
-.site-title {
-  color: white;
-}
-.site-tagline {
-  font-size: em(18px);
-  font-style: italic;
-}
+      <div class="item">
+        
+          <h4 class="item-title">This is the post title</h4>
+         <img src="http://lorempixel.com/400/100/nightlife" alt="Sample Image" class="item-image" />
+        <p>Stay away from hyena people, or any loser athletes, or if you see anyone who's invisible. From beneath you, it devours. Somebody put her tiny little thinking cap on! We'll have to call it early quantum state phenomenon.</p> 
+      <p>Only way to fit 5000 species of mammal on the same boat. I've seen the best and the worst of you. The only thing Willow was ever good for, the only thing I ever had going for me were those moments, just moments, where Tara would look at me and I was wonderful. We've got a bunch of fighters with nothing to hit, a wicca who won't-a, and the brains of our operation wears oven mitts. They rampaged through half the known world until Angel got his soul.</p>
+      <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div></div>
 
-// Navigation, including mobile version
-.main-nav {
-  background: $hellayellow;
-  color: white;
-  //transition: none;
-  a {
-    color: $darkblue;
-    text-decoration: none;
-  }
-  ul, li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  ul {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    a {
-      padding: em(15px) em(35px);
-      display: flex;
-      text-transform: uppercase;
-      &:hover, &:focus {
-        background: lighten($hellayellow, 25%);
-        color: lighten($darkblue, 25%);
-      }
-    }
-    .mobile-button a {
-      position: absolute;
-      left: -99999em;
-    }
-  }
-  
-  @media (max-width: 700px) {
-    ul {
-      flex-wrap: wrap;
-       justify-content: flex-start;
-      a {
-        position: absolute;
-        left: -99999em;
-      }
-      &.open {
-        li {
-          width: 100%;
-          &.mobile-button a {
-          	background: tint($hellayellow, 50%);
-          	color: darken($medblue, 20%);
-          }
-        }
-        a {
-          position: static;
-          
-        }
-      }
-      .mobile-button {
-        a {
-          position: static;
-        }
-      }
-    }
-    a {
-      width: 100%;
-    }
-  }
-}
+      <div class="item">
+        
+          <h4 class="item-title">This is the post title</h4>
+        <p>Oh my god you will never believe what happened at school today. We're old friends from Navy. Friends from Old Navy. I worked retail, he'd come in, buy slacks I'm not planning on presiding over the end of Western Civilization. She is the slayer. Everyone's a hero in their own way, in their own not that heroic way. Stay away from hyena people, or any loser athletes, or if you see anyone who's invisible. These endless days are finally ending in a blaze. What, you think this isn't real just because of all the vampires, and demons, and ex-vengeance demons, and the sister that used to be a big ball of universe-destroying energy? They need to take seven and they might take yours. I swallowed a bug.</p>
+      <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
 
-//Setting up full-bleed images, shrinking the height on smaller viewports 
-.full-bleed {
-  background-size: cover;
-  min-height: 300px;
-  width: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-@media (max-width:700px) {
-  .full-bleed {
-    min-height: 175px;
-  }
-}
+      <div class="item">
+          <h4 class="item-title">This is the post title</h4>
+        <p>Love keeps her in the air when she ought to fall down. Bunnies aren't just cute like everybody supposes. And I understand with perfect clarity exactly what you are. Occasionally, I'm callous and strange. You can't spend the rest of your life waiting for Xander to wake up and smell the hottie.</p>
+      <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </article>
+</section>
 
-.cool-photo {
-  background-image: url(http://lorempixel.com/1300/400/abstract)
-}
-.cool-photo2 {
-  background-image: url(http://lorempixel.com/1300/400/food)
-}
-
-.post {
-  padding: em(30px);
-}
-
-// Setting up our columns/grids. The first section has two columns side by side. The second section has a grid of 3 columns, that reduces down to two columns and then full width as browser is scaled down.
-.columns {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  .item {
-    padding: em(25px);
-    max-width: 47%;
-    background: lighten($medblue, 45%);
-    color: $darkblue;
-    border-bottom: 5px solid $hellayellow;
-    margin-bottom: em(35px);
-    position: relative;
-    overflow: hidden;
-    .item-title {
-      color: darken($lightblue, 85%);
-      font-size: 24px;
-      margin: 0 0 5px 0;
-      font-family: $heading-font-family;
-    }
-    .item-image {
-      max-width: 100%;
-    }
-    &:hover, &:focus {
-      background: lighten($medblue, 58%);
-      border-bottom-color: $salmon;
-      .social {
-        position: absolute;
-        bottom: -21px;
-        height: auto;
-        z-index: 5;
-        padding: 10px 0;
-        .fa {
-          color: $salmon;
-          padding: 0 em(5px);
-          &:hover {
-            color: tint($darkblue, 40%);
-          }
-        }
-      }
-    }
-  }
-  @media (max-width: 660px) {
-    .item {
-      max-width: 100%;
-      width: 100%;
-    }
-  }
-   &.thirds {
-     .item {
-        max-width: 31%;
-     }
-     
-     @media (max-width: 770px) {
-       .item {
-         max-width: 48%;
-       }
-       @media (max-width: 660px) {
-       .item {
-         max-width: 100%;
-         width: 100%;
-       }
-     }
-     }
-    }
-  .social {
-    position: absolute;
-    bottom: -60px;
-    height: 0;
-    z-index: -1;
-    font-size: em(28px);
-  }
-}
-
-.footer {
-  background: $salmon;
-  color: white;
-  padding: em(15px);
-  text-align: center;
-  font-size: em(13px);
-  a {
-    color: $hellayellow;
-    text-decoration: none;
-    border-bottom: 1px solid;
-  }
-}
-
-//With love <3 by Lindsey Di Napoli - CSSgirl
+<footer class="footer">
+  <div class="container">
+    <p>Footer Text, Yo. Made with love by <a href="http://cssgirl.com">Lindsey Di Napoli</a></p>
+  </div>
+</footer>
