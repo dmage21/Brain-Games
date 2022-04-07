@@ -12,12 +12,12 @@
   <a href="index.php">Brain Games </a> 
   <a class="active" href="index.php>Home</a>
   <a href="#contact">Contact</a>
-  <a href="signup.php" style="float:right;" >>Sign up</a>
+  <a href="signup.php" style="float:right;" >Sign up</a>
 	<?php
 	session_start();
 	if (isset($_SESSION["loggedin"])) {
-	echo "<a href='logout.php'>Logout</a> ";
-	}else {echo "<a href='login.php'>Login</a> &nbsp; &nbsp; &nbsp	";}
+	echo "<a href='logout.php'style="float:right;" >Logout</a> ";
+	}else {echo "<a href='login.php'style="float:right;" >Login</a> &nbsp; &nbsp; &nbsp	";}
 	?>
   <a href="aboutus.php">About</a>
   <a href="donate.php">Donate</a> 
