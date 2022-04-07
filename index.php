@@ -17,14 +17,14 @@
   <a href="#contact">Contact</a>
   <a href="singup.php">Sign up</a>
   <a href="aboutus.php">About</a>
+	<?php
+	session_start();
+	if (isset($_SESSION["loggedin"])) {
+	echo "<a href='logout.php'>Logout</a> ";
+	}else {echo "<a href='login.php'>Login</a> &nbsp; &nbsp; &nbsp	";}
+	?>
 </div>
 
-<?php
-session_start();
-if (isset($_SESSION["loggedin"])) {
-echo "<a href='logout.php'>Logout</a> ";
-}else {echo "<a href='login.php'>Login</a> &nbsp; &nbsp; &nbsp	";}
-?>
 </center>
 <center> <br> <br> <br> <br> </center>
 <center> <h2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Game 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Game 2 </h2> </center>
