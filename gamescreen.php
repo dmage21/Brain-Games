@@ -3,6 +3,7 @@
 	<head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
+<script src="cryptogame.js" async defer></script>
 </head>
 
 <!-- Making the links at the top of the page. -->
