@@ -12,7 +12,7 @@
   <a href="index.php">Brain Games </a> 
   <a class="active" href="index.php>Home</a>
   <a href="#contact">Contact</a>
-  <a href="singup.php">Sign up</a>
+  <a href="signup.php">Sign up</a>
 	<?php
 	session_start();
 	if (isset($_SESSION["loggedin"])) {
