@@ -42,16 +42,9 @@
 Amount: <input type="text" name ="amount" id="1" size="25"
 maxlength="25" value=""> <br> <br>
 
-Card Holder: <input type="text" name ="name" id="2" size="25"
+Name: <input type="text" name ="name" id="2" size="25"
 maxlength="50" value=""> <br> <br>
 
-Credit Card Number: <input type="text" name ="number" id="3" size="25"
-maxlength="" value=""> <br> <br>
-
-
-  
-Expiration Date: <input type="text" name ="date" id="5" size="25"
-maxlength="" value=""> <br> <br>
 
 			<input type="submit" name="submit" value="Submit" />
 	<input type="reset" name="reset" value="Cancel" />
