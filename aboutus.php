@@ -4,26 +4,28 @@
 <head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
- 
-
 </head>
-<body style="background-color:LightSalmon;">
-<!-- Making the links at the top of the page. -->
-<left>
-<h1> <a href="index.php">Brain Games </a>  <img src="brainart.png" width="200" height="175"> </h1>
-</left>
-<center>
-<h2> <a href="index.php">Home</a>            &nbsp; &nbsp; &nbsp; 
-<a href="signup.php">Sign Up</a>             &nbsp; &nbsp; &nbsp;
-<a href="aboutus.php">About Us</a>  &nbsp; &nbsp; &nbsp;
-<a href="donate.php">Donate Now</a>              &nbsp; &nbsp; &nbsp; 
 
-<?php
-session_start();
-if (isset($_SESSION["loggedin"])) {
-echo "<a href='logout.php'>Logout</a> ";
-}else {echo "<a href='login.php'>Login</a> &nbsp; &nbsp; &nbsp	";}
-?>
+<!-- Making the links at the top of the page. -->
+<center>
+<div class="topnav">
+  <a href="index.php">Brain Games </a> 
+  <a class="active" href="index.php>Home</a>
+  <a href="#contact">Contact</a>
+  <a href="singup.php">Sign up</a>
+	<?php
+	session_start();
+	if (isset($_SESSION["loggedin"])) {
+	echo "<a href='logout.php'>Logout</a> ";
+	}else {echo "<a href='login.php'>Login</a> &nbsp; &nbsp; &nbsp	";}
+	?>
+  <a href="aboutus.php">About</a>
+  <a href="donate.php">Donate</a>
+</div>
+<left>
+<img src="brainart.png" width="200" height="175"> </h1>
+</left>
+
 </center>
 <center> <br> <br> <br> <br> </center>
 <left>Brain Games was established in 2018 after its successful launch of the educational website known as NogginTester, a website that provides various studying tools for students to use in order to further their understanding of various school subjects. It has since been this company’s mission to provide a fun and easy learning environment for people of all ages and backgrounds. Brain Games hopes to have a wide variety of free to use educational websites and sources that are easily accessible to the public, grow their user base into the hundreds of thousands and to eventually sell a subscription service that provides full courses and guides for various subjects.<br><br> 
