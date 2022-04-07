@@ -20,7 +20,7 @@
 	}else {echo "<a href='login.php'>Login</a> &nbsp; &nbsp; &nbsp	";}
 	?>
   <a href="aboutus.php">About</a>
-  <a href="donate.php">Donate</a>
+  <right> <a href="donate.php">Donate</a> </right>
 </div>
 <left>
 <img src="brainart.png" width="200" height="175"> </h1>
