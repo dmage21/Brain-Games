@@ -16,8 +16,8 @@
 	<?php
 	session_start();
 	if (isset($_SESSION["loggedin"])) {
-	echo "<a href='logout.php'style="float:right;" >Logout</a> ";
-	}else {echo "<a href='login.php'style="float:right;" >Login</a> &nbsp; &nbsp; &nbsp	";}
+	echo "<a href='logout.php' >Logout</a> ";
+	}else {echo "<a href='login.php'" >Login</a> &nbsp; &nbsp; &nbsp	";}
 	?>
   <a href="aboutus.php">About</a>
   <a href="donate.php">Donate</a> 
