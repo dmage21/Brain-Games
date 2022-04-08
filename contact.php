@@ -35,7 +35,7 @@ if($_POST["message"]) {
 Our Phone Number: 555-543-2198 <br> <br>
 </h2>
 	<form name="Contact Form" action="contact.php" method="post">
-		<textarea name="message" id = "8" cols="80" rows="10" >></textarea>
+		<textarea name="message" id = "8" cols="80" rows="10" ></textarea>
 		<input type="submit">
 	</form>
 <h2> Fill out your question or concern in the box below, and it will be emailed directly to us! <h2>
