@@ -88,27 +88,6 @@ body {
 }
 
 
-<body>
 
-<div style="padding-left:16px">
-  <h2>Top Navigation Example</h2>
-  <p>Some content.</p>
-</div>
 
-<center id="gameZone">
-			<label for="debugToggle">Debug</label>
-			<input type="checkbox" id="debugToggle" checked="true"></input>
-			<div id="debugPane" class="hidden">
-				<label>Correct answer:</label>
-				<div id="correctAnswer"></div>
-				<label>Cipher type:</label>
-				<div id="cipherType"></div>
-			</div>
-			<label id="title">Guess the Word</label>
-			<label id="encryptedWord"></label>
-			<label id="gameFeedback"></label>
-			<input id="userGuess" type="text"/>
-			<button id="guessButton">Guess</button>
-		<center>
 
-</body>
