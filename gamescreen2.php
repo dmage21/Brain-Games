@@ -4,6 +4,7 @@
 <head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
+<link rel ="cryptogame" href="cryptogame.css">
 </head>
 
 <!-- Making the links at the top of the page. -->
