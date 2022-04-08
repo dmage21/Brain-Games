@@ -30,7 +30,7 @@
 <center>
 		<div class="container">
 <!-- creating sign up form -->
-			<form name="Sign Up Form" action="signupinsert.php" method="post">
+			<form name="Sign Up Form" action="index.php" method="post">
 <h2> Sign Up! </h2> <br>
 <h3>
 Username: <input type="text" name ="user" id="1" size="25"
