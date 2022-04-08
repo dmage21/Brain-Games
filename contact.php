@@ -10,7 +10,7 @@ if($_POST["message"]) {
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
 </head>
-
+<body>
 <!-- Making the links at the top of the page. -->
 <center>
 <div class="topnav">
@@ -46,7 +46,7 @@ Our Phone Number: 555-543-2198 <br> <br>
 function popUp() {
 	confirm("Are you sure?");
 }
-</script>	  
-        </form
+</script>
+	  
 </body>
 </html>
