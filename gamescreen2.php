@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html> 
-
-<head>
+	<head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
+<script src="cryptogame2.js" async defer></script>
 </head>
 
 <!-- Making the links at the top of the page. -->
@@ -25,14 +25,23 @@
 <left>
 <img src="brainart.png" width="200" height="175"> </h1>
 </left>
-</center>
 
 
-
-<br>
-
-
-<br> <br>
-
-</body>
+		</center>
+		<center id="gameZone">
+			<label for="debugToggle">Debug</label>
+			<input type="checkbox" id="debugToggle" checked="true"></input>
+			<div id="debugPane" class="hidden">
+				<label>Correct answer:</label>
+				<div id="correctAnswer"></div>
+			</div>
+			<label id="title">Solve the Expression:</label>
+			<label id="rightNum"></label>
+			<label id="expression"></label>
+			<label id="gameFeedback"></label>
+			<input id="userGuess" type="text"/>
+			<button id="guessButton">Guess</button>
+		<center>
+	</body>
 </html>
+
