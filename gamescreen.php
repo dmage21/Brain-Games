@@ -2,7 +2,7 @@
 <html>
 	<head>
 <!-- Referencing to the style sheet --> 
-<link rel ="stylesheet" href="stylesheet.css">
+<link rel ="stylesheet" href="cryptogame.css">
 <script src="cryptogame.js" async defer></script>
 </head>
 
