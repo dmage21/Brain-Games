@@ -12,7 +12,6 @@ if($_POST["message"]) {
 </head>
 <body>
 <!-- Making the links at the top of the page. -->
-<center>
 <div class="topnav">
   <a href="index.php">Brain Games </a> 
   <a href='signup.php' style="float:right;" >Sign up</a>
@@ -47,6 +46,6 @@ function popUp() {
 	confirm("Are you sure?");
 }
 </script>
-	  
+
 </body>
 </html>
