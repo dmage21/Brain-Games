@@ -28,7 +28,7 @@
 
 </center>
 <center> <br> <br> <br> <br> </center>
-<center> <h2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Caesar Cipher &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Math Quest </h2> </center>
+<center> <h2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Caesar Cipher &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Math Quest </h2> </center>
 <center> <a href="gamescreen.php"> <img src="caesar.png" width="200" height="200" style="margin: 0px 50px 0px 50px;"> </a> <a href="gamescreen2.php"> <img src="math.png" width="200" height="200" style="margin: 0px 50px 0px 0px;"> </a> </center>
 
 <br>
