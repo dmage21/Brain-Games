@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("kyledodrill512@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE html>
 <html> 
 <head>
@@ -28,11 +34,12 @@
 <h2> Our Email Address: BrainGamesDevs@gmail.com <br> <br>
 Our Phone Number: 555-543-2198 <br> <br>
 </h2>
-	<form name="Contact Form" action="<>" method="">
+	<form name="Contact Form" action="contact.php" method="post">
+		<textarea name="message" id = "8" cols="80" rows="10" >></textarea>
+		<input type="submit">
+	</form>
 <h2> Fill out your question or concern in the box below, and it will be emailed directly to us! <h2>
           
-          <textarea name = "contact" id = "8" cols="80" rows="10" >
-		  </textarea> <br>
 			<button onclick="popUp()">Submit</button>
 			<button onclick="popUp()">Clear</button>
 <script>
