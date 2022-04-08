@@ -5,7 +5,6 @@
 <link rel ="stylesheet" href="cryptogame.css">
 <link rel ="stylesheet" href="stylesheet.css">
 <script src="cryptogame2.js" async defer></script>
->>>>>>> 37077943bc2a64d6fcd0dd3a7ba58226db374990
 </head>
 
 <!-- Making the links at the top of the page. -->
