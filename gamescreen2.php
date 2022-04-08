@@ -29,41 +29,6 @@
 
 
 
-
-<center> <input id="clickMe" type="button" value="Play" onclick="startGame();" /> <center>
-
-
-
-
-<script>
-
-var myGamePiece;
-var myObstacles = [];
-var myScore;
-
-function startGame() {
-    
-    myGameArea.start();
-}
-
-var myGameArea = {
-    canvas : document.createElement("canvas"),
-    start : function() {
-        this.canvas.width = 480;
-        this.canvas.height = 270;
-        this.context = this.canvas.getContext("2d");
-		document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-        this.frameNo = 100;
-        this.interval = setInterval(updateGameArea, 20);
-	this.canvas.translate(1000,500);
-        },
-    clear : function() {
-        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-    }
-}
-
-</script>
-
 <br>
 
 
