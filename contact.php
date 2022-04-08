@@ -41,13 +41,6 @@ Our Phone Number: 555-543-2198 <br> <br>
 	</form>
 <h2> Fill out your question or concern in the box below, and it will be emailed directly to us! <h2>
           
-			<button onclick="popUp()">Submit</button>
-			<button onclick="popUp()">Clear</button>
-<script>
-function popUp() {
-	confirm("Are you sure?");
-}
-</script>
 	
 </body>
 </html>
