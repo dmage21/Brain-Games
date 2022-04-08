@@ -10,7 +10,7 @@
 <div class="topnav">
   <a href="index.php">Brain Games </a> 
   <a class="active" href="index.php>Home</a>
-  <a href="signup.php" style="float:right;" >Sign up</a>
+  <a href="signup.php" style="float:right;">Sign up</a>
   <a href="contact.php">Contact</a>
 	<?php
 	session_start();
@@ -26,7 +26,7 @@
 </left>
 
 <h1> Contact Us! <h1> 
-<h2> Our Email Address: Garfieldbookstore@gmail.com <br> <br>
+<h2> Our Email Address: BrainGamesDevs@gmail.com <br> <br>
 Our Phone Number: 555-543-2198 <br> <br>
 </h2>
 	<form name="Contact Form" action="" method="">
