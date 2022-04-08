@@ -29,7 +29,7 @@
 </center>
 <center> <br> <br> <br> <br> </center>
 <center> <h2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Game 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Game 2 </h2> </center>
-<center> <a href="gamescreen.php"> <img src="game1.png" width="200" height="200" style="margin: 0px 50px 0px 50px;"> </a> <a href="gamescreen2.php"> <img src="game2.png" width="200" height="200" style="margin: 0px 50px 0px 0px;"> </a> </center>
+<center> <a href="gamescreen.php"> <img src="caesar.png" width="200" height="200" style="margin: 0px 50px 0px 50px;"> </a> <a href="gamescreen2.php"> <img src="math.png" width="200" height="200" style="margin: 0px 50px 0px 0px;"> </a> </center>
 
 <br>
 
