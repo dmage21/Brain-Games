@@ -28,7 +28,7 @@
 <h2> Our Email Address: BrainGamesDevs@gmail.com <br> <br>
 Our Phone Number: 555-543-2198 <br> <br>
 </h2>
-	<form name="Contact Form" action="" method="">
+	<form name="Contact Form" action="<>" method="">
 <h2> Fill out your question or concern in the box below, and it will be emailed directly to us! <h2>
           
           <textarea name = "contact" id = "8" cols="80" rows="10" >
