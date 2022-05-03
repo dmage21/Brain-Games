@@ -31,15 +31,15 @@ $user = $_POST['user'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 // variables to connect to server
-$DB_HOST = "localhost";
-$DB_USER = "postgres";
-$DB_PASS = "root";
-$DB_NAME = "userAccounts";
+$DB_HOST = "ec2-3-218-171-44.compute-1.amazonaws.com";
+$DB_USER = "zbesxlnsnqhoam";
+$DB_PASS = "641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e76d517c5f2d288f35f77f";
+$DB_NAME = "dd5ivembuns2tk";
 
 //conncecting to server
 
 $conn = pg_connect("host=$DB_HOST, user=$DB_USER, password=$DB_PASS, dbname=$DB_NAME");
-echo $user ;
+
 if (!$conn){
 	echo "Connection failed:";
 }
