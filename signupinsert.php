@@ -37,10 +37,9 @@ $DB_PASS = "641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e76d517c5f2d288f35f77f";
 $DB_NAME = "dd5ivembuns2tk";
 
 //conncecting to server
-echo $user ;
 
 $conn = pg_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME) or die ("could not connect to server");
-
+echo $user ;
 if (!$conn){
 	echo "Connection failed:";
 }
