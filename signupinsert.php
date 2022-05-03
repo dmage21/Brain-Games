@@ -40,11 +40,10 @@ $DB_URI = "postgres://zbesxlnsnqhoam:641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e
 
 //conncecting to server
 
-$conn = pg_connect("host=$DB_HOST, user=$DB_USER, port=$DB_PORT, password=$DB_PASS, dbname=$DB_NAME");
+$conn = pg_connect("host=$DB_HOST, user=$DB_USER, port=$DB_PORT, password=$DB_PASS, dbname=$DB_NAME") 
+or die ("Could not connect to Server\n");
 
-if (!$conn){
-	echo "Connection failed:";
-}
+
 // query to insert email and password into mysql table
 $query = "INSERT INTO userAccounts(userName,email,password) VALUES ('$user','$email','$password')";
 $res = pg_query($conn, $query);
