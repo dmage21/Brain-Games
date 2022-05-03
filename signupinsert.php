@@ -54,7 +54,7 @@ if ($conn->connect_error){
 }
 // query to insert email and password into mysql table
 $query = "INSERT INTO userAccounts(userName,email,password) values ('$user','$email','$password')";
-$res = $conn->query($query);
+$res = $conn->pg_query($query);
 
  if ($res){
  	echo "<center> <h3> Signed up Successfully!</h3>";
