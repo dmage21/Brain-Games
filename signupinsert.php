@@ -36,10 +36,11 @@ $DB_USER = "zbesxlnsnqhoam";
 $DB_PORT = "5432";
 $DB_PASS = "641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e76d517c5f2d288f35f77f";
 $DB_NAME = "dd5ivembuns2tk";
+$DB_URI = "postgres://zbesxlnsnqhoam:641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e76d517c5f2d288f35f77f@ec2-3-218-171-44.compute-1.amazonaws.com:5432/dd5ivembuns2tk"
 
 //conncecting to server
 
-$conn = pg_connect("host=$DB_HOST, user=$DB_USER, port=$DB_PORT, password=$DB_PASS, dbname=$DB_NAME");
+$conn = pg_connect("host=$DB_HOST, user=$DB_USER, port=$DB_PORT, password=$DB_PASS, dbname=$DB_NAME, uri=$DB_URI");
 
 if (!$conn){
 	echo "Connection failed:";
