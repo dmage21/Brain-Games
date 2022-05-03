@@ -37,7 +37,7 @@
 			</div>
 			<label id="title">Guess the Word</label>
 			<label id="encryptedWord"></label>
-			<label id="gameFeedback"></label>
+			<label id="gameFeedback"></label> 
 			<input id="userGuess" type="text"/>
 			<button id="guessButton">Guess</button>
 		<center>
