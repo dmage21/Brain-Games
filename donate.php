@@ -36,7 +36,7 @@
 Amount: <input type="text" name ="amount" id="1" size="25"
 maxlength="25" value=""> <br> <br>
 
-Name: <input type="text" name ="name" id="2" size="25"
+Name: <input type="text" name ="name" id="2" size="25" 
 maxlength="50" value=""> <br> <br>
 
 
