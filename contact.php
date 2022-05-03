@@ -6,7 +6,7 @@ if($_POST["message"]) {
 ?>
 
 <!DOCTYPE html>
-<html> 
+<html>
 <head>
 <!-- Referencing to the style sheet --> 
 <link rel ="stylesheet" href="stylesheet.css">
