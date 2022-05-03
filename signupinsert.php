@@ -40,7 +40,7 @@ $DB_URI = "postgres://zbesxlnsnqhoam:641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e
 
 //conncecting to server
 
-$conn = pg_connect("host=$DB_HOST, dbname=$DB_NAME, user=$DB_USER, password=$DB_PASS, port=$DB_PORT") 
+$conn = pg_connect("host=$DB_HOST, dbname=$DB_NAME, user=$DB_USER, password=$DB_PASS") 
 or die ("Could not connect to Server\n");
 
 
