@@ -38,7 +38,7 @@ $DB_NAME = "userAccounts";
 
 //conncecting to server
 
-$conn = pg_connect("host=$DB_HOST, user=$DB_USER, password=$DB_PASS, dbname=$DB_NAME);
+$conn = pg_connect("host=$DB_HOST, user=$DB_USER, password=$DB_PASS, dbname=$DB_NAME");
 echo $user ;
 if (!$conn){
 	echo "Connection failed:";
