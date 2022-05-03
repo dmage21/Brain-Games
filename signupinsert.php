@@ -37,11 +37,8 @@ $DB_PASS = "641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e76d517c5f2d288f35f77f";
 $DB_NAME = "dd5ivembuns2tk";
 
 //conncecting to server
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> 8984df5ac7261a31931b9d008007492007d5f078
+
 $conn = pg_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME) or die ("could not connect to server");
 
 if (!$conn){
@@ -50,10 +47,7 @@ if (!$conn){
 // query to insert email and password into mysql table
 $query = "INSERT INTO userAccounts(userName,email,password) VALUES ('$user','$email','$password')";
 $res = pg_query($conn, $query);
-<<<<<<< HEAD
 
-=======
-=======
 $conn = new mysqli ($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($conn->connect_error){
 	die("Connection failed:" .$conn->connect_error);
@@ -61,8 +55,7 @@ if ($conn->connect_error){
 // query to insert email and password into mysql table
 $query = "INSERT INTO userAccounts(userName,email,password) values ('$user','$email','$password')";
 $res = $conn->query($query);
->>>>>>> c07e13041eabbd471b21781307249250c478401d
->>>>>>> 8984df5ac7261a31931b9d008007492007d5f078
+
  if ($res){
  	echo "<center> <h3> Signed up Successfully!</h3>";
 	echo "<br> <br> <h3> Log in to your new account: <a href='login.html'> Login </a>";
@@ -71,17 +64,10 @@ $res = $conn->query($query);
 		echo "<center> <h2> Error Creating Account";
 	}
 // close connection to database
-<<<<<<< HEAD
+
 pg_close($con);
 
-=======
-<<<<<<< HEAD
-pg_close($conn);
-=======
-$conn ->close();
->>>>>>> c07e13041eabbd471b21781307249250c478401d
->>>>>>> 8984df5ac7261a31931b9d008007492007d5f078
-?>
+
 </body>
 <center> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br> <br> <br>
 <h3> This is a school project, not an actual store. </h3> </center>
