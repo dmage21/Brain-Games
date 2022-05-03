@@ -37,13 +37,13 @@ $DB_PASS = "641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e76d517c5f2d288f35f77f";
 $DB_NAME = "dd5ivembuns2tk";
 
 //conncecting to server
-$conn = new mysqli ($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
-if ($conn->connect_error){
-	die("Connection failed:" .$conn->connect_error);
+$conn = pg_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME) or die ("could not connect to server");
+if (!$conn){
+	echo "Connection failed:";
 }
 // query to insert email and password into mysql table
-$query = "INSERT INTO userAccounts(userName,email,password) values ('$user','$email','$password')";
-$res = $conn->query($query);
+$query = "INSERT INTO userAccounts(userName,email,password) VALUES ('$user','$email','$password')";
+$res = pg_query($conn, $query);
  if ($res){
  	echo "<center> <h3> Signed up Successfully!</h3>";
 	echo "<br> <br> <h3> Log in to your new account: <a href='login.html'> Login </a>";
@@ -52,7 +52,7 @@ $res = $conn->query($query);
 		echo "<center> <h2> Error Creating Account";
 	}
 // close connection to database
-$conn ->close();
+pg_close($conn);
 ?>
 </body>
 <center> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br> <br> <br>
