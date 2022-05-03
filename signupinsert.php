@@ -38,6 +38,7 @@ $DB_NAME = "dd5ivembuns2tk";
 
 //conncecting to server
 $conn = pg_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME) or die ("could not connect to server");
+echo "connect?"
 if (!$conn){
 	echo "Connection failed:";
 }
