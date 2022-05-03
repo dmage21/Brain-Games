@@ -40,7 +40,7 @@ $DB_URI = "postgres://zbesxlnsnqhoam:641fb695885f0e0e22ee82ce9d624848a33d2c7ba1e
 
 //conncecting to server
 
-$conn = pg_connect("host=$DB_HOST, user=$DB_USER, port=$DB_PORT, password=$DB_PASS, dbname=$DB_NAME, uri=$DB_URI");
+$conn = pg_connect("host=$DB_HOST, user=$DB_USER, port=$DB_PORT, password=$DB_PASS, dbname=$DB_NAME, URI=$DB_URI");
 
 if (!$conn){
 	echo "Connection failed:";
@@ -49,12 +49,6 @@ if (!$conn){
 $query = "INSERT INTO userAccounts(userName,email,password) VALUES ('$user','$email','$password')";
 $res = pg_query($conn, $query);
 
-$conn = new mysqli ($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
-if ($conn->connect_error){
-	die("Connection failed:" .$conn->connect_error);
-}
-// query to insert email and password into mysql table
-$query = "INSERT INTO userAccounts(userName,email,password) values ('$user','$email','$password')";
 $res = $conn->pg_query($query);
 
  if ($res){
