@@ -11,7 +11,7 @@
 <div class="topnav">
   <a href="index.php">Brain Games </a> 
   <a href='signup.php' style="float:right;" >Sign up</a>
-  <a href="contact.php">Contact</a>
+  <a href="contact.php">Contact</a> 
 	<?php
 	session_start();
 	if (isset($_SESSION["loggedin"])) {
