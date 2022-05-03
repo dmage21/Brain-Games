@@ -66,7 +66,7 @@ $res = $conn->query($query);
 // close connection to database
 
 pg_close($con);
-
+?>
 
 </body>
 <center> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br> <br> <br>
