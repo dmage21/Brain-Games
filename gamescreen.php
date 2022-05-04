@@ -27,7 +27,7 @@
 
 		</center>
 		<center id="gameZone">
-			<label for="debugToggle">Debug</label>
+			<label for="debugToggle">Check Your Answer</label>
 			<input type="checkbox" id="debugToggle" checked="true"></input>
 			<div id="debugPane" class="hidden">
 				<label>Correct answer:</label>
