@@ -18,7 +18,7 @@
 	echo "<a href='logout.php' >Logout</a> ";
 	}else {echo "<a href='login.php' >Login</a> &nbsp; &nbsp; &nbsp	";}
 	?>
-  <a href="aboutus.php">About</a>
+  <a href="aboutus.php">About</a> 
   <a href="donate.php">Donate</a> 
 </div>
 <left>
