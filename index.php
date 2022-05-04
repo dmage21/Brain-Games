@@ -22,7 +22,7 @@
   <a href="donate.php">Donate</a> 
 </div>
 <left>
-<img src="brainart.png" width="200" height="175"> </h1>
+<img src="brainart.png" width="200" height="175"> </h1> 
 </left>
 
 </center>
