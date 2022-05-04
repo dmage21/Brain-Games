@@ -39,7 +39,7 @@ $DB_NAME = "dd5ivembuns2tk";
 //conncecting to server
 
 echo "<center> <h3> Signed up Successfully!</h3></center>";
-	echo "<center><h3>  Hello </h3></center>", "<center><h3>". $user . "</center></h3>" ;
+	echo "<center><h3>  Hello </h3></center>", "<h3>". $user . "</h3>" ;
 	echo "<center><br> <br> <h3> Log in to your new account: <a href='login.php'> Login </a></center>";
 	
 
