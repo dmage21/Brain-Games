@@ -48,21 +48,21 @@ echo "<center> <h3> Signed up Successfully!</h3>";
 
 
 // query to insert email and password into mysql table
-$query = "INSERT INTO userAccounts(userName,email,password) VALUES ('$user','$email','$password')";
-$res = pg_query($conn, $query);
+//$query = "INSERT INTO userAccounts(userName,email,password) VALUES ('$user','$email','$password')";
+//$res = pg_query($conn, $query);
 
-$res = $conn->pg_query($query);
+//$res = $conn->pg_query($query);
 
- if ($res){
- 	echo "<center> <h3> Signed up Successfully!</h3>";
-	echo "<br> <br> <h3> Log in to your new account: <a href='login.html'> Login </a>";
- }
- 	else {
-		echo "<center> <h2> Error Creating Account";
-	}
+// if ($res){
+//	echo "<center> <h3> Signed up Successfully!</h3>";
+//	echo "<br> <br> <h3> Log in to your new account: <a href='login.html'> Login </a>";
+// }
+ //	else {
+//		echo "<center> <h2> Error Creating Account";
+//	}
 // close connection to database
 
-pg_close($con);
+//pg_close($con);
 ?>
 
 </body>
