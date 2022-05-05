@@ -65,7 +65,6 @@ maxlength="" value=""> <br> <br>
 <script>
 function age() {
   var x = document.getElementById("Age").required;
-  document.getElementById("test").innerHTML = x;
 }
 </script>
 
