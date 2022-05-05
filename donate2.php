@@ -32,7 +32,7 @@ if (isset($_SESSION["loggedin"]))
 	?>
 </left>
 <?php
-if(session_status()==2){
+if(isset($_SESSION["loggedin"])) {
 
 echo"<h2> Thank you for your Donation, " . $_SESSION["user"] . "</h2> </center>";
 }
