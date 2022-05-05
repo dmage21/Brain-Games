@@ -5,25 +5,7 @@
 <link rel ="stylesheet" href="stylesheet.css">
 </head>
 
-<!-- Making the links at the top of the page. -->
-<center>
-<div class="topnav">
-  <a href="index.php">Brain Games </a> 
-  <a href='signup.php' >Sign up</a>
-  <a href="contact.php">Contact</a>
-  <a href="aboutus.php">About</a>
-  <a href="donate.php">Donate</a> 
-	<?php
-	session_start();
-	if (isset($_SESSION["loggedin"])) {
-	echo "<a href='logout.php' style=float:right>Logout</a> ";
-	}else {echo "<a href='login.php' >Login</a> &nbsp; &nbsp; &nbsp	";}
-	?>
-</div>
-<left>
-<img src="brainart.png" width="200" height="175"> </h1> 
-
-</center>
+<!-- Log in first so the correct navbar buttons are displayed later -->
 <?php
 // posting variables from form
 $user = $_POST['user'];
@@ -64,6 +46,26 @@ echo "<center> <h3> Signed up Successfully!</h3></center>";
 
 //pg_close($con);
 ?>
+
+<!-- Making the links at the top of the page. -->
+<center>
+<div class="topnav">
+  <a href="index.php">Brain Games </a> 
+  <a href='signup.php' >Sign up</a>
+  <a href="contact.php">Contact</a>
+  <a href="aboutus.php">About</a>
+  <a href="donate.php">Donate</a> 
+	<?php
+	session_start();
+	if (isset($_SESSION["loggedin"])) {
+	echo "<a href='logout.php' style=float:right>Logout</a> ";
+	}else {echo "<a href='login.php' >Login</a> &nbsp; &nbsp; &nbsp	";}
+	?>
+</div>
+<left>
+<img src="brainart.png" width="200" height="175"> </h1> 
+
+</center>
 
 </body>
 </html>
