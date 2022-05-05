@@ -61,8 +61,8 @@ maxlength="" value=""> <br> <br>
 <input type="reset" name="reset" value="Cancel" />
 
 <script>
-age.addEventListener("input", (evt) => {
-  submit.disabled = !evt.target.checked;
+checkbox.addEventListener("input", (evt) => {
+  Submit.disabled = !evt.target.checked;
 }
 </script>
 
