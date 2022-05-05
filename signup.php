@@ -66,7 +66,7 @@ maxlength="" value=""> <br> <br>
 
 <script>
 function age() {
-	var g = document.getElementById("Age").required;
+	var g = document.getElementById("age").required;
                 document.getElementById("sudo").innerHTML = g;
 }
 </script>
