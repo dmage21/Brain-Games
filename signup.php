@@ -62,12 +62,12 @@ maxlength="" value=""> <br> <br>
 	Submit
 </button>
 <input type="reset" name="reset" value="Cancel" />
-<p id = "sudo" style = "color:green;font-size:30px;"></p>
+<p id = "test"></p>
 
 <script>
 function age() {
-	var g = document.getElementById("Age").required;
-    document.getElementById("sudo").innerHTML = g;
+  var x = document.getElementById("myCheck").required;
+  document.getElementById("demo").innerHTML = x;
 }
 </script>
 
