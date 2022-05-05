@@ -32,6 +32,10 @@ if (isset($_SESSION["loggedin"]))
 	?>
 </left>
 
+<script>
+	age()
+	</script>
+
 </center>
 <center> <br> <br> <br> <br> </center>
 <center>
@@ -50,14 +54,15 @@ Password: <input type="password" name ="password" id="3" size="25"
 maxlength="" value=""> <br> <br>
 
 <input type="checkbox" id="age" name="age" value="Age">
-<label for="age"> I am over the age of 13.</label><br>
+<label for="age"> I am over the age of 13.</label><br><br>
 
 
 <input type="submit" name="submit" value="Submit" />
 <input type="reset" name="reset" value="Cancel" />
+
 <script>
-function popUp() {
-	confirm("Are you sure?");
+function age() {
+  document.getElementById("age").required = true;
 }
 </script>
 
