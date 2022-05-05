@@ -61,8 +61,8 @@ maxlength="" value=""> <br> <br>
 <button onclick = "age()">
 	Submit
 </button>
-<p id = "sudo" style = "color:green;font-size:30px;"></p>
 <input type="reset" name="reset" value="Cancel" />
+<p id = "sudo" style = "color:green;font-size:30px;"></p>
 
 <script>
 function age() {
