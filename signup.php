@@ -32,9 +32,7 @@ if (isset($_SESSION["loggedin"]))
 	?>
 </left>
 
-<script>
-	age();
-	</script>
+
 
 </center>
 <center> <br> <br> <br> <br> </center>
@@ -67,7 +65,7 @@ maxlength="" value=""> <br> <br>
 <script>
 function age() {
   var x = document.getElementById("Age").required;
-  document.getElementById("demo").innerHTML = x;
+  document.getElementById("test").innerHTML = x;
 }
 </script>
 
