@@ -15,7 +15,9 @@
 	session_start();
 	if (isset($_SESSION["loggedin"])) {
 	echo "<a href='logout.php' >Logout</a> ";
-	}else {echo "<a href='login.php' >Login</a> &nbsp; &nbsp; &nbsp	";}
+	echo "Hello,", $_SESSION["user"];
+	}else {echo "<a href='login.php' >Login</a> &nbsp; &nbsp; &nbsp	";
+	       echo "<a href='signup.php' style="float:right;" >Sign up</a>";}
 	?>
   <a href="aboutus.php">About</a>
   <a href="donate.php">Donate</a> 
@@ -38,10 +40,11 @@ $DB_NAME = "dd5ivembuns2tk";
 
 //conncecting to server
 
-echo "<center> <h3> Signed up Successfully!</h3></center>";
-	echo "<center><h3>  Hello ", "<center>". $user . "</center></h3>" ;
-	echo "<center><br> <br> <h3> Log in to your new account: <a href='login.php'> Login </a></center>";
-	
+echo "<center> <h3> Signed up Successfully!</h3>";
+	<h3> echo "Hello";
+	ech $user<h3>;
+	echo "<br> <br> <h3> Log in to your new account: <a href='login.html'> Login </a>";
+	</center>
 
 //$conn = pg_connect("host=$DB_HOST, dbname=$DB_NAME, user=$DB_USER, password=$DB_PASS") 
 //or die ("Could not connect to Server\n");
