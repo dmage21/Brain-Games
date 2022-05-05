@@ -69,6 +69,4 @@ echo "<center> <h3> Signed up Successfully!</h3>";
 ?>
 
 </body>
-<center> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br> <br> <br>
-<h3> This is a school project, not an actual store. </h3> </center>
 </html>
