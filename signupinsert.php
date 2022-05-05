@@ -6,6 +6,7 @@
 </head>
 
 <!-- Making the links at the top of the page. -->
+<center>
 <div class="topnav">
   <a href="index.php">Brain Games </a> 
   <a href='signup.php' >Sign up</a>
