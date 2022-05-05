@@ -61,8 +61,8 @@ maxlength="" value=""> <br> <br>
 <input type="reset" name="reset" value="Cancel" />
 
 <script>
-function age() {
-  document.getElementById("age").required = true;
+age.addEventListener("input", (evt) => {
+  submit.disabled = !evt.target.checked;
 }
 </script>
 
