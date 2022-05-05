@@ -51,7 +51,7 @@ maxlength="50" value=""> <br> <br>
 Password: <input type="password" name ="password" id="3" size="25"
 maxlength="" value=""> <br> <br>
 
-<input type="checkbox" id="Age" name="Age" value="Age">
+<input type="checkbox" id="Age" name="Age" value="Age" required>
 <label for="age"> I am over the age of 13.</label><br><br>
 
 
