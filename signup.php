@@ -53,7 +53,7 @@ maxlength="50" value=""> <br> <br>
 Password: <input type="password" name ="password" id="3" size="25"
 maxlength="" value=""> <br> <br>
 
-<input type="checkbox" id="age" name="age" value="Age">
+<input type="checkbox" id="Age" name="Age" value="Age">
 <label for="age"> I am over the age of 13.</label><br><br>
 
 
@@ -66,8 +66,8 @@ maxlength="" value=""> <br> <br>
 
 <script>
 function age() {
-	var g = document.getElementById("age").required;
-                document.getElementById("sudo").innerHTML = g;
+	var g = document.getElementById("Age").required;
+    document.getElementById("sudo").innerHTML = g;
 }
 </script>
 
