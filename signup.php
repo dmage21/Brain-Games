@@ -66,7 +66,7 @@ maxlength="" value=""> <br> <br>
 
 <script>
 function age() {
-  var x = document.getElementById("myCheck").required;
+  var x = document.getElementById("Age").required;
   document.getElementById("demo").innerHTML = x;
 }
 </script>
