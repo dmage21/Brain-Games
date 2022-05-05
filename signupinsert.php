@@ -19,7 +19,6 @@
 	echo "<a href='logout.php' style=float:right>Logout</a> ";
 	echo "Hello,", $_SESSION["user"];
 	}else {echo "<a href='login.php' >Login</a> &nbsp; &nbsp; &nbsp	";
-		   echo "Hello ";}
 	?>
 
 </div>
