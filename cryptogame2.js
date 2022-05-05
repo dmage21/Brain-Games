@@ -133,8 +133,11 @@ function enterInput(evt) {
  *                                                                          *
 \* ------------------------------------------------------------------------ */
 function checkAnswer() {
-	if(Game.input.value == Game.answer)
+	if(Game.input.value == Game.answer) {
+		let score = document.getElementById("scoreCount");
+		score.innerText = parseInt(score.innerText) + 1;
 		resetCountdown(1);
+	}
 	else
 		Game.feedback.innerText = "Try again";
 }
