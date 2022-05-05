@@ -31,9 +31,6 @@ if (isset($_SESSION["loggedin"]))
 }
 	?>
 </left>
-<left>
-<img src="brainart.png" width="200" height="175"> </h1>
-</left>
 <?php
 if(session_status()==2){
 
