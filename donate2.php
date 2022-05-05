@@ -34,7 +34,11 @@ if (isset($_SESSION["loggedin"]))
 <left>
 <img src="brainart.png" width="200" height="175"> </h1>
 </left>
+<?php
+if(session_status()==2){
 
+echo"<h2> Thank you for your Donation, " . $_SESSION["user"] . "</h2> </center>";
+}
 
 	</body>
 </html>

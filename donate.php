@@ -37,7 +37,7 @@ if (isset($_SESSION["loggedin"]))
 <center>
 		<div class="container">
 <!-- creating sign up form -->
-			<form name="Donation Form" action="donation.php" method="post">
+			<form name="Donation Form" action="donate2.php" method="post">
 <h2> Care to Donate? </h2> <br>
 <h3>
 Amount: <input type="text" name ="amount" id="1" size="25"
