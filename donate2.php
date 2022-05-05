@@ -34,8 +34,8 @@ if (isset($_SESSION["loggedin"]))
 <?php
 if(isset($_SESSION["loggedin"])) {
 
-echo"<h2> Thank you for your Donation, " . $_SESSION["user"] . "</h2> </center>";
-}
+echo"<h2> <center> Thank you for your Donation, " . $_SESSION["user"] . "</h2> </center>";
+}else{echo"<h2> <center> Thank you for you donation.</h2> </center>"}
 ?>
 
 	</body>
