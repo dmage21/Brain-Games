@@ -33,7 +33,7 @@ if (isset($_SESSION["loggedin"]))
 </left>
 
 <script>
-	age()
+	age();
 	</script>
 
 </center>
