@@ -19,9 +19,16 @@
 	}else {echo "<a href='login.php' >Login</a> &nbsp; &nbsp; &nbsp	";}
 	?>
 </div>
-
+<left>
 <img src="brainart.png" width="200" height="175"> </h1> 
-
+<?php
+session_start();
+if (isset($_SESSION["loggedin"])) 
+{
+	echo "<center> <h2> Hello, ". $_SESSION["user"] . " </h2> </center>";
+}
+	?>
+</left>
 
 </center>
 <?php
