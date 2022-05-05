@@ -135,14 +135,17 @@ function enterInput(evt) {
  *                                                                          *
  *         Name: checkAnswer                                                *
  *  Description: Checks the player's guess against the encrypted word. If   *
- *               the player's guess is correct, begins the reset            *
- *               countdown. If the player's guess is incorrect, displays a  *
- *               retry message.                                             *
+ *               the player's guess is correct, updates score and begins    *
+ *               the reset countdown. If the player's guess is incorrect,   *
+ *               displays a retry message.                                  *
  *                                                                          *
 \* ------------------------------------------------------------------------ */
 function checkAnswer() {
-	if(Game.input.value == Game.words[Game.wordIndex])
+	if(Game.input.value == Game.words[Game.wordIndex]) {
+		let score = document.getElementById("scoreCount");
+		scoreCount.innerText = parseInt(scoreCount.innerText) + 1;
 		resetCountdown(3);
+	}
 	else
 		Game.feedback.innerText = "Try again";
 }
