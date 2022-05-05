@@ -25,7 +25,7 @@
 <img src="brainart.png" width="200" height="175"> </h1> 
 <?php
 session_start();
-echo "<center> Hello,". $_SESSION["user"] "</center>";
+echo "<center> Hello,". $_SESSION["user"] . "</center>";
 	?>
 </left>
 
