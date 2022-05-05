@@ -27,7 +27,7 @@
 session_start();
 if (isset($_SESSION["loggedin"])) 
 {
-	echo "<center> <h2> Hello,". $_SESSION["user"] . " </h2> </center>";
+	echo "<center> <h2> Hello, ". $_SESSION["user"] . " </h2> </center>";
 }
 	?>
 </left>
