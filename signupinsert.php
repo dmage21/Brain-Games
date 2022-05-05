@@ -40,7 +40,7 @@ $DB_NAME = "dd5ivembuns2tk";
 echo "<center> <h3> Signed up Successfully!</h3>";
 	echo "<h3> Hello </h3>";
 	echo "<h3>" . $user ."</h3>";
-	echo "<br> <br> <h3> Log in to your new account: <a href='login.html'> Login </a>";
+	echo "<br> <br> <h3> Log in to your new account: <a href='login.php'> Login </a>";
 
 
 //$conn = pg_connect("host=$DB_HOST, dbname=$DB_NAME, user=$DB_USER, password=$DB_PASS") 
