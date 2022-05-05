@@ -39,6 +39,7 @@ if(session_status()==2){
 
 echo"<h2> Thank you for your Donation, " . $_SESSION["user"] . "</h2> </center>";
 }
+?>
 
 	</body>
 </html>
