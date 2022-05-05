@@ -144,7 +144,7 @@ function checkAnswer() {
 	if(Game.input.value == Game.words[Game.wordIndex]) {
 		let score = document.getElementById("scoreCount");
 		scoreCount.innerText = parseInt(scoreCount.innerText) + 1;
-		resetCountdown(3);
+		resetCountdown(1);
 	}
 	else
 		Game.feedback.innerText = "Try again";
