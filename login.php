@@ -33,7 +33,7 @@
 <br>
 <div class="container">
 <h3>
-<form name="Signin Form" action="index.php" method="post">
+<form name="Signin Form" action="logininsert.php" method="post">
 Username: <input type="text" name ="user" id="1" size="25"
 maxlength="25" value=""> <br> <br>
 
