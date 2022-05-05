@@ -18,12 +18,14 @@
 	session_start();
 	if (isset($_SESSION["loggedin"])) {
 	echo "<a href='logout.php' style=float:right>Logout</a> ";
-	echo "Hello,", $_SESSION["user"];
 	}else {echo "<a href='login.php' >Login</a> &nbsp; &nbsp; &nbsp	";}
 	?>
 </div>
 <left>
 <img src="brainart.png" width="200" height="175"> </h1> 
+<?php>
+echo "<center> Hello,". $_SESSION["user"] "</center>";
+	?>
 </left>
 
 </center>
