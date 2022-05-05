@@ -57,12 +57,17 @@ maxlength="" value=""> <br> <br>
 <label for="age"> I am over the age of 13.</label><br><br>
 
 
-<input type="submit" name="submit" value="Submit" />
+
+<button onclick = "age()">
+	Submit
+</button>
+<p id = "sudo" style = "color:green;font-size:30px;"></p>
 <input type="reset" name="reset" value="Cancel" />
 
 <script>
-Age.addEventListener("input", (evt) => {
-  Submit.disabled = !evt.target.checked;
+function age() {
+	var g = document.getElementById("Age").required;
+                document.getElementById("sudo").innerHTML = g;
 }
 </script>
 
