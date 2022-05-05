@@ -41,7 +41,7 @@ if (isset($_SESSION["loggedin"]))
 
 <center> <h3> <div> Welcome to Brain Games! Brain Games was established in 2021,<br> and is a collection
 of stimulating puzzles and games. This webiste allows you to<br>
-play games that educate you while being a fun experiennce for people of all ages. </div> </h3> </center>
+play games that educate you while being a fun experience for people of all ages. </div> </h3> </center>
 <br> <br>
 <center> <h3> This is a school project </h3> </center> 
 
