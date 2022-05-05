@@ -21,7 +21,7 @@
 </div>
 <left>
 <img src="brainart.png" width="200" height="175"> </h1> 
-
+</left>
 
 </center>
 <?php
